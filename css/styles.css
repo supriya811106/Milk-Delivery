@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*navbar section.....*/
+#navbar{
+    position: fixed;
+    background-color:rgb(230, 234, 245);
+    display: flex;
+    align-items: center;  
+    width: 100%;
+    height: 90px;
+}
+.logo-img img{
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 140px;    
+}
+ul{
+    display: flex;
+    margin-left:600px ;
+}
+ul li{
+    list-style:none;
+    font-size: 1.1rem;
+}
+#navbar ul li a{
+    display: block;
+    color:#001253;
+    margin-left:20px;
+    padding:0 4px 0 4px ;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+#navbar ul li a:hover{
+    color:#6173b6;
+}
+
+
+/*Home section........*/
+.home {
+    width: 100%;
+    background-color:#0b2277;
+   display: flex;
+   color:white;
+   padding:140px 40px 40px 40px;
+}
+.home h1{
+    font-size:50px;
+    font-family: 'Merriweather', serif;
+    line-height: 80px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.home p{
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.btn{ 
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    height: 50px;
+    width: 147px;
+    border-radius: 6px;
+    border-color:white;
+    display: block;
+    margin: auto; 
+    cursor: pointer;  
+}
+.home .btn a{
+    background-color:transparent;
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: #2146C7;
+}
+
+
+/* delivery-section process.......*/
+section{
+    font-family: 'Merriweather', serif;
+}
+.delivery-process{
+    display: flex;
+    margin:50px 0 50px 22px;
+}
+.delivery-process div{
+    background-color: #EEF1FF;
+    border: 2px solid #7895B2;
+    border-radius: 20px;
+    height:300px;
+    width:400px;
+    margin:20px 50px 50px  10px;
+}
+.delivery-process div img{
+    display: block;
+    margin:auto;
+}
+.delivery-process div p{
+    color: #00125380;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 0px;
+}
+.delivery-process h3{
+    text-align: center;
+    line-height: 0px;
+    color: #001253;
+    font-size: 27px;
+    font-family: 'Merriweather', serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+
+/*Milk Product Section......*/
+.product{
+    margin:50px 0 50px 8px;
+}
+section .product-container{  
+    display: flex;
+    margin:50px 0 50px 8px;   
+}
+.product h2{
+    color: #001253;
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.product div{
+    border: 2px solid rgb(180, 180, 214);     
+    border-radius: 4px;
+    height:420px;
+    width:300px;
+    margin:20px 20px 50px  10px;
+    overflow: hidden;
+}
+.product div img{
+    background-size:cover;
+    display: block;
+    margin:auto;
+}
+.product div p{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.37);
+    text-align: center;
+    line-height: 0px;
+    padding-bottom: 26px;
+}
+.product h3{
+    text-align: center;
+    line-height: 0px;
+    color: #001253;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    word-spacing: 1px;
+    padding: 40px 0 30px 0;
+    text-decoration: underline;
+}
+.product .btn{
+    background-color: #2146C7;
+    border-radius: 8px;
+}
+.product .btn a{
+    text-decoration: none;
+    color: white;
+}
+.product .btn:hover{
+    background-color: #112878;
+}
+
+
+/*guaranteed section......*/
+.guaranteed-section{
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding: 60px 40px 20px 40px;
+    background-color:#0b2277;   
+}
+.guaranteed-section h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.guaranteed-section p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.guaranteed-section .watch ,.guaranteed{
+    float: left;
+    width:320px;
+}
+.guaranteed-section .guaranteed{
+    margin-left: 300px;
+    margin-top: 44px;
+}
+.guaranteed-section .watch{
+    margin-left: 190px;
+}
+
+
+/*contact us section.....*/ 
+.section-contact-us{
+    text-align: center;
+    margin:18px;
+    background-color: white;
+}
+.section-contact-us button{
+   background-color: #1b3aa9;
+    color: white;
+    font-size: large;
+    border-radius: 8px;
+    border-color:white;
+    margin-bottom:10px;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+}
+.section-contact-us button a{
+    text-decoration: none;
+    color:white;
+}
+.section-contact-us button:hover{
+    background-color:#3354cc;
+}
+.instagram a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 14px;
+    padding-left: 10px;
+    font-family: 'Merriweather', serif;   
+}
+.instagram a:hover{
+    color: #4d66bf;
+}
+.instagram{
+    margin-bottom: 10px;
+}
+.copyright p{
+    font-size: 16px;
+    color: #8d9bcd;  
+}
